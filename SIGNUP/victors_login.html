@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Roboto&display=swap'">
+    <title>Signup Page</title>
+    <style>
+        /* CSS for the logo*/
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 200px;
+            height: auto;
+        }
+        .home-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #1a1e22;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="home-button">Home</a>
+    <img class="logo" src="logo.jpeg" alt="Logo">
+        <div class="createbox">
+            <form class="form" id="signin">
+
+                <h1 class="form__title">Login</h1>
+
+                <div class="form__input-group">
+                    <label for="" ><strong>Username</strong></label>
+                    <br> 
+                    <input type="text" id="" placeholder="Username">
+                </div>
+                <div class="form__input-group">
+                    <label for=""><strong>Password</strong></label>
+                    <br>
+                    <input type="Password" name="" id="" placeholder="Password">
+                </div>
+                    
+                <button class="form__button" type="submit" onclick="login()">Login</button>
+
+                <div class="form__link">
+                    <a href="victors_signup.html">Don't have an account? <br> Create account</a>
+                </div>
+
+            </form>
+            
+        </div>
+        <script src="victors_login.js"></script>
+    
+</body>
+</html>

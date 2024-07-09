@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Roboto&display=swap'">
+    <title>Signup Page</title>
+    <style>
+        /* CSS for the logo*/
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 200px;
+            height: auto;
+        }
+        .home-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #1a1e22;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="home-button">Home</a>
+    <img class="logo" src="logo.jpeg" alt="Logo">
+        <div class="createbox">
+            <form class="form" id="signup">
+
+                <h1 class="form__title">Create your account</h1>
+
+                <div class="form__input-group">
+                    <label for=""><strong>Username</strong></label>
+                    <br>
+                    <input class="takeinput" type="text" id="Username" placeholder="Username">
+                </div>
+                <div class="form__input-group">
+                    <label for=""><strong>Email</strong></label>
+                    <br>
+                    <input class="takeinput" type="text" id="Email" placeholder="Email">
+                </div>
+                <div class="form__input-group">
+                    <label for=""><strong>First name</strong></label>
+                    <br>
+                    <input class="takeinput" type="text" name="" id="firstname" placeholder="first name">
+                </div>
+                <div class="form__input-group">
+                    <label for=""><strong>Last name</strong></label>
+                    <br>
+                    <input class="takeinput" type="text" name="" id="lastname" placeholder="last name">
+                </div>
+                <div class="form__input-group">
+                    <label for=""><strong>Class</strong></label>
+                    <br>
+                    <select class="takeinput" id="class" placeholder="Class">
+                        <option value="Class 6">Class 6</option>
+                        <option value="Class 7">Class 7</option>
+                        <option value="Class 8">Class 8</option>
+                        <option value="Class 9">Class 9</option>
+                        <option value="Class 10">Class 10</option>
+                    </select>
+                </div>    
+                <div class="form__input-group">
+                    <label for=""><strong>Password</strong></label>
+                    <br>
+                    <input class="takeinput" type="password" name="" id="password" placeholder="Enter Password">
+                </div>
+                <div class="form__input-group">
+                    <label for=""><strong>Re-Enter password</strong></label>
+                    <br>
+                    <input class="takeinput" type="password" name="" id="Re-enter password" placeholder="Re-enter Password">
+                </div>
+                <div class="form__input-group">
+                    <label for=""><strong>Mobile Number</strong></label>
+                    <br>
+                    <input class="takeinput" type="text" name="" id="mobile" placeholder="Enter mobile number">
+                </div>
+
+                <div class="form__input-group">
+                    <a href="otp.html"> <br>Verify with OTP</a>
+                </div>
+                
+
+                    <button class="form__button" type="submit">Create</button>
+                <div class="form__link">
+                    <a href="victors_login.html">Already had an account? <br>sign in</a>
+
+                </div>
+
+            </form>
+            
+        </div>
+        <script src="victors_signup.js"></script>
+</body>
+</html>

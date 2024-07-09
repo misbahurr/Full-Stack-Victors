@@ -1,0 +1,51 @@
+[
+  {
+      "id": 1,
+      "content": "New Batch Announcement: We are excited to announce the commencement of our latest batch for [Class 6th to 10th]. Enroll now to secure your spot!"
+  },
+  {
+      "id": 2,
+      "content": "Exam Preparation Tips: Learn essential strategies and techniques to excel in your upcoming exams. Join our exclusive exam preparation workshop on 20th March!"
+  },
+  {
+      "id": 3,
+      "content": "Holiday Announcement: Please be informed that the institute will remain closed on 24th March on account of Holi. Wishing you a joyful holiday!" 
+  },
+  {
+      "id": 4,
+      "content": "Scholarship Opportunities: Avail exciting scholarship opportunities for deserving students. Contact us for more details."
+  },
+  {
+      "id": 5,
+      "content": "Parent-Teacher Meeting: We invite parents to attend a meeting on March 28th to discuss the progress and performance of their ward."
+  },
+  {
+      "id": 6,
+      "content": "Career Guidance Seminar: Explore various career options and pathways with our expert counselors specially designed for the 10th class students. Register now for our upcoming seminar!"
+  },
+  {
+      "id": 7,
+      "content": "Mock Test Series: Evaluate your preparation level with our comprehensive mock test series. Enhance your exam readiness!"
+  },
+  {
+  "id": 8,
+  "content": "Special Workshop: Join us for a special workshop on Effective Parenting Strategies conducted by child psychologists. Limited seats available – reserve yours today!"
+  }
+  ,
+  {
+      "id": 9,
+     "content": "Important Notice: Please note that classes will be suspended on April 1st on account of National Bandh. Regular classes will resume on 2nd April"
+  },
+  {
+      "id": 10,
+      "content": "Student Achievement Celebration: Celebrate the success of our students who have achieved remarkable results in recent exams. Join us for a felicitation ceremony!"
+  },
+  {
+      "id": 11,
+      "content": "Faculty Recruitment: We are hiring experienced and dedicated faculty members for various subjects. Apply now to join our esteemed team!"
+  },
+  {
+      "id": 12,
+      "content": "Feedback Survey: Your feedback is valuable to us! Kindly spare a few moments to complete our feedback survey and help us serve you better."
+  }
+]

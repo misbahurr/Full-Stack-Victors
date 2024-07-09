@@ -1,0 +1,93 @@
+body {
+    --color-primary:#A1BCFB;
+    --color-box: #FFFFFF;
+    --color-error: #FF9494;
+    --color-input: #808080;
+    --color-button: #00FFFF;
+  
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    font-size: 18px;
+    height: 100vh;
+  }
+  
+  .createbox {
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    margin: 1rem;
+    padding: 2rem;
+    top: 70px;
+    width: 400px;
+  }
+
+  
+
+  
+  .form__title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form__message {
+    text-align: center;
+    color: var(--color-error);
+    margin-bottom: 1rem;
+  }
+  
+  .form__button,
+  .form__input-group {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .form__input-group input[type="text"],
+  .form__input-group input[type="password"] {
+    width: 80%;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-left: 22px;
+    padding: 0.5rem ;
+  }
+  
+  .form__button {
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-left: 22px;
+    padding: 0.5rem 2rem;
+    width: 85%;
+  }
+  
+  .takeinput {
+    width: 100%;
+    height: 40px;
+    padding: 0.5rem;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form__button:active {
+    transform: scale(0.98);
+  }
+  
+  .form__link {
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .form__label {
+    width: 400px;
+  } 
+  

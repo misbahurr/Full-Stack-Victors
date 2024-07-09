@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="shareable.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="Navbar">
+        <img src="logo.jpeg" id="logo">
+        <img src="profile_photo.png" id="profile">
+        <p id="username">Username</p>
+        <div><a href="#"><img src="log_out.png" id="logout"></a></div>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <img src="profile_photo.png" id="profile_photo">
+        <a href="#">Attendance</a>
+        <a href="#">Examination Results</a>
+        <a href="#">Fee Status/Dues</a>
+
+        <button class="dropdown-btn" id="dropdown">Study Resources
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <button class="dropdown-btn " id="dropdown">Class 6
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Subject Wise Study Material</a>
+                <a href="#">Test Papers</a>
+            </div>
+
+            <button class="dropdown-btn " id="dropdown">Class 7
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Subject Wise Study Material</a>
+                <a href="#">Test Papers</a>
+            </div>
+
+            <button class="dropdown-btn " id="dropdown">Class 8
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Subject Wise Study Material</a>
+                <a href="#">Test Papers</a>
+            </div>
+
+            <button class="dropdown-btn " id="dropdown">Class 9
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Subject Wise Study Material</a>
+                <a href="#">Test Papers</a>
+            </div>
+
+            <button class="dropdown-btn " id="dropdown">Class 10
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Subject Wise Study Material</a>
+                <a href="#">Test Papers</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <span class="open" onclick="openNav()">&#9776; </span>
+        <span id="title">Attendance</span>
+    </div>
+
+    <div class="profileinfo">
+        <p id="profileinfo">You are accessing this page as: Student</p>
+    </div>
+
+    <div class="attendance-table">
+        <h2>Attendance Over Last Week</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Student Name</th>
+                    <th>Attendance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-03-05</td>
+                    <td>Student 1</td>
+                    <td>Present</td>
+                </tr>
+                <tr>
+                    <td>2024-03-06</td>
+                    <td>Student 1</td>
+                    <td>Absent</td>
+                </tr>
+                <!-- Add more rows for other dates and students -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src='shareable.js'></script>
+</body>
+
+</html>

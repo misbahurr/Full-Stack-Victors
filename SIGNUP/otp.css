@@ -1,0 +1,90 @@
+/* * {
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+body {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+.form {
+	width: 500px;
+	background-color: #A1BCFB;
+	padding: 0 30px;
+	display: grid;
+	gap: 20px;
+	padding-bottom: 30px;
+}
+input {
+	width: 100%;
+	padding: 10px;
+}
+.otpverify {
+	width: 100%;
+	display: flex;
+	gap: 20px;
+}
+.btn {
+	padding: 10px;
+	background-color: skyblue;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 150px;
+}
+.otpverify{
+	display: none;
+} */
+* {
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+body {
+    --color-primary: #A1BCFB;
+    --color-box: #FFFFFF;
+    --color-error: #FF9494;
+    --color-input: #808080;
+    --color-button: #00FFFF;
+  
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    font-size: 18px;
+  }
+.form {
+	width: 500px;
+	background-color: #eeeeee;
+	padding: 20px 30px;
+	display: grid;
+	gap: 20px;
+	padding-bottom: 30px;
+    margin: 0 auto;
+}
+input {
+	width: 100%;
+	padding: 10px;
+}
+.otpverify {
+	width: 100%;
+	display: flex;
+	gap: 20px;
+}
+.btn {
+	padding: 10px;
+	background-color: #A1BCFB;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 150px;
+}
+.otpverify{
+	display: none;
+}

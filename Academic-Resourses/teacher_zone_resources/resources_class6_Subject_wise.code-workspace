@@ -1,0 +1,52 @@
+{
+	"folders": [
+		{
+			"path": "../resources_class6_Subject_wise"
+		},
+		{
+			"path": "../resources_class6_test_papers"
+		},
+		{
+			"path": "../resources_class7_Subject_wise"
+		},
+		{
+			"path": "../resources_class7_test_papers"
+		},
+		{
+			"path": "../resources_class8_Subject_wise"
+		},
+		{
+			"path": "../resources_class8_test_papers"
+		},
+		{
+			"path": "../resources_class9_Subject_wise"
+		},
+		{
+			"path": "../resources_class9_test_papers"
+		},
+		{
+			"path": "../resources_class10_Subject_wise"
+		},
+		{
+			"path": "../resources_class10_test_papers"
+		},
+		{
+			"path": "../shareable_common_structure_studentteacher zone"
+		},
+		{
+			"path": "../student_dashboard"
+		},
+		{
+			"path": "../Student_zone_resources"
+		},
+		{
+			"path": "../teacher_dashboard"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "resources_class6_Subject_wise"
+	}
+}

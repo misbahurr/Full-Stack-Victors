@@ -1,0 +1,200 @@
+
+
+/* Add a black background color to the top navigation */
+.Navbar{
+    background-color: #525252;
+    padding:10px 10px;
+    display: flex;
+    margin:-8px -8px 10px -12px;
+    height:2rem;
+    width: 100%;
+    /* box-shadow: #F9D25E; */
+     box-shadow: 10px 10px 5px rgb(52, 204, 254);
+
+}
+#logout{
+    position: absolute;
+    right:10px;
+    height: 4%;
+    
+}
+
+#logouttext{
+    position: absolute;
+    color: white;
+    text-align: end;
+    margin-top: 5px;
+    margin-left: 93%;
+    justify-content: center;
+    text-decoration: none;
+}
+#profile{
+    margin-left: 80%;
+    position: absolute;
+    height:5%;
+    border-radius: 50%;
+    width:2.2%
+}
+
+#username{
+    color: white;
+    position: absolute;
+    left: 83%;
+    /* bottom: 98%; */
+    top: 0.7%;
+}
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+  /* position: ; */
+  /* height: max-content; */
+  /* background-color: red; */
+}
+.open{
+font-size:25px;
+cursor:"pointer";
+background-color: #D9D9D9 ;
+padding:7px 20px;
+margin-left: -20px;
+
+}
+
+.sidenav {
+  height:80%;
+  width: 0;
+  position: fixed;
+  /* display: flex; */
+  z-index: 1;
+  top:7.3%;
+  left: 0;
+  text-align: center;
+  justify-content: center;
+  background-color:  #D7E3FF;
+  
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+}
+
+.sidenav a{
+    padding: 25px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #191818;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 5%;
+    transition: 0.3s;
+}
+#dropdown{
+    background-color: #D7E3FF;
+    font-size: 20px;
+    border: 0px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:10%;
+    padding:20px;
+}
+#dropdown:hover{
+    background-color: #A1BCFB;
+    /* border-radius: 30px; */
+}
+
+.sidenav a:hover {
+  color: black;
+  background-color: #A1BCFB;
+  /* border-radius: 30px; */
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  padding: 2px 15px;
+}
+
+#main {
+  transition: margin-left .5s;
+  font-size: 25px;
+  cursor: pointer;
+  background-color:   #D9D9D9;
+  padding-left: 10px;
+  /* margin-left: px; */
+
+  margin-right: -8px;
+  display: flex;
+  margin-top: -10px;
+  align-items: center;
+  /* box-shadow: gray; */
+  height:3rem;
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #B0C6FB;
+    /* border-radius: 30px; */
+    padding-left: 8px;
+    /* visibility: hidden; */
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    display: flex;
+    float: right;
+    padding-right: 8px;
+  }  
+
+  .active {
+    /* background-color: green; */
+    color: black;
+  }
+
+  #title{
+    font-size: 1.5rem;
+    
+  }
+
+  .profileinfo{
+
+    padding: 2px 2px;
+    height:1rem;
+    background-color: #F9D25E;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5%;
+    width:100%;
+  }
+
+  
+  #profile_photo{
+    border-radius: 50%;
+    width:40%;
+    height:35%;
+  }
+
+  #test_paper{
+    margin-left: -15%;
+    border-radius: 10%;
+    margin-top: 186%;
+    width: 338px;
+    height: 400px;
+  }
+
+  #test_paper:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+
+  }

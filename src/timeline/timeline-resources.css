@@ -1,0 +1,18 @@
+.custom-event-editor td, .custom-event-editor th  {
+    border:"0px solid black";
+}
+
+.custom-event-editor .e-textlabel {
+    padding-right: 15px;
+    text-align: right;
+}
+  
+  .custom-event-editor td {
+    padding: 7px;
+    padding-right: 16px;
+  }
+.schedule-control-section{
+
+    width: 80vw;
+    height: 80vh;
+}
